@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(154, 239, 250);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: rgb(230, 230, 241);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px red;
+}
+
+label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+input{
+  height: 30px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.btnGroup{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btnGroup button:first-child,.btnGroup button:nth-child(2){
+  height: 40px;
+  width: 75px;
+  margin: 10px;
+  background-color: rgb(218, 192, 248);
+}
+.btnGroup button:nth-child(2){
+  height: 40px;
+  width: 75px;
+  margin: 10px;
+  background-color: rgb(236, 60, 60);
+}
